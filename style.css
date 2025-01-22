@@ -27,7 +27,7 @@ header .logo-container {
 }
 
 header .logo {
-    height: 120px;  /* Ajustez la taille du logo selon vos préférences */
+    height: 150px;  /* Ajustez la taille du logo selon vos préférences */
     width: auto;
 }
 
@@ -93,7 +93,7 @@ header nav ul li a {
 }
 
 /* Galerie d'images de bus */
-.bus-gallery {
+.bus-gallery { 
     margin-top: 40px;
     text-align: center;
 }
@@ -157,9 +157,9 @@ header nav ul li a {
 form {
     display: flex;
     flex-direction: column;
-    width: 60%;
-    margin: 0 auto;
-    padding: 20px;
+    width: 30%;
+    margin: 10 auto;
+    padding: 10px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -193,13 +193,6 @@ form button:hover {
     background-color: #1a4e26;
 }
 
-/* Message de réponse */
-#responseMessage {
-    margin-top: 20px;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
 /* Footer */
 footer {
     text-align: center;
@@ -209,3 +202,68 @@ footer {
     margin-top: 30px;
 }
 
+.social-links {
+    margin-top: 15px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #1a4e26;
+}
+/* Section des partenaires */
+#partenaires h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c6b2f;
+    text-align: center;
+}
+
+#partenaires p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.partners-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.partner-logo {
+    margin: 20px;
+    text-align: center;
+    width: 25%;
+}
+
+.partner-logo img {
+    width: 100%;
+    max-width: 200px;  /* Ajustez selon la taille de vos logos */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.partner-logo img:hover {
+    transform: scale(1.05);
+}
+/* Logo en bas à gauche de la section de contact */
+.contact-logo {
+    position: absolute;
+    bottom: -1800px; /* Ajustez la distance du bas de la section */
+    right: 60px;   /* Ajustez la distance du bord gauche */
+    width: 450px; /* Ajustez la taille du logo */
+}
+
+.contact-logo img {
+    width: 100%;  /* Le logo prendra la largeur du conteneur */
+    height: auto;
+}
