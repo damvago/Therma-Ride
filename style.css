@@ -362,7 +362,6 @@ body {
 
   .contact-logo {
     position: relative;
-    bottom: 0; /* Enlève le positionnement absolu */
     width: 100%;
   }
 
