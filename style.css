@@ -364,6 +364,7 @@ body {
     position: relative;
     bottom: 0; /* Enlève le positionnement absolu */
     width: 100%;
+    margin: 10px auto;
   }
 
   /* Réduire la taille des icônes sociales */
