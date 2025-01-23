@@ -263,7 +263,7 @@ footer {
 /* Logo en bas à gauche de la section de contact */
 .contact-logo {
     position: absolute;
-    bottom: -1800px; /* Ajustez la distance du bas de la section */
+    bottom: -2000px; /* Ajustez la distance du bas de la section */
     right: 60px;   /* Ajustez la distance du bord gauche */
     width: 450px; /* Ajustez la taille du logo */
 }
@@ -371,3 +371,4 @@ body {
     font-size: 20px;
   }
 }
+
