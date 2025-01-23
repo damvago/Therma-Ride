@@ -360,12 +360,14 @@ body {
     margin: 10px auto;
   }
 
-  .contact-logo {
-    position: relative;
-    bottom: 0; /* Enlève le positionnement absolu */
-    width: 100%;
-    margin-right: 10px;
-  }
+.contact-logo {
+    position: absolute;
+    bottom: -2000px;
+    right: 60px;
+    width: 450px;
+    margin-top: 20px; /* Décale le logo de 20px vers le bas */
+}
+
 
   /* Réduire la taille des icônes sociales */
   .social-icon {
