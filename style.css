@@ -272,7 +272,7 @@ footer {
     width: 100%;  /* Le logo prendra la largeur du conteneur */
     height: auto;
 }
-/* Par défaut, pour les grands écrans */
+/* Règles par défaut pour les grands écrans */
 body {
   font-size: 16px;
 }
@@ -280,6 +280,94 @@ body {
 /* Pour les écrans plus petits (mobiles) */
 @media (max-width: 768px) {
   body {
-    font-size: 14px;
+    font-size: 14px; /* Réduit légèrement la taille de la police */
+  }
+
+  /* Mise en forme de l'en-tête sur mobile */
+  header {
+    flex-direction: column; /* Empile le logo et la navigation */
+    height: auto; /* Permet à l'en-tête de s'ajuster */
+    padding: 20px 15px;
+  }
+
+  header .logo-container {
+    flex: none;
+    margin-bottom: 10px;
+  }
+
+  header nav ul {
+    display: block; /* Change la navigation pour être verticale */
+    text-align: center;
+  }
+
+  header nav ul li {
+    margin-bottom: 10px;
+  }
+
+  /* Section d'accueil */
+  #accueil h1 {
+    font-size: 2rem; /* Réduit la taille du titre */
+  }
+
+  #accueil p {
+    font-size: 1rem; /* Réduit la taille du texte */
+  }
+
+  /* Section des services */
+  #services h2, #avantages h2 {
+    font-size: 2rem;
+  }
+
+  /* Galerie d'images des bus */
+  .bus-gallery {
+    margin-top: 20px;
+  }
+
+  .bus-image {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Section des avantages */
+  #benefits {
+    display: block; /* Change en disposition verticale */
+  }
+
+  .benefit {
+    width: 100%; /* Fait en sorte que chaque avantage prenne toute la largeur */
+    margin-bottom: 20px;
+  }
+
+  /* Formulaire de contact */
+  form {
+    width: 100%; /* Le formulaire prend toute la largeur sur mobile */
+    margin: 10px auto;
+  }
+
+  form label, form input, form textarea, form button {
+    font-size: 1rem;
+  }
+
+  /* Section des partenaires */
+  .partners-gallery {
+    display: block;
+    text-align: center;
+  }
+
+  .partner-logo {
+    width: 80%; /* Réduit la largeur des logos des partenaires */
+    margin: 10px auto;
+  }
+
+  .contact-logo {
+    position: relative;
+    bottom: 0; /* Enlève le positionnement absolu */
+    width: 100%;
+  }
+
+  /* Réduire la taille des icônes sociales */
+  .social-icon {
+    font-size: 20px;
   }
 }
