@@ -272,3 +272,14 @@ footer {
     width: 100%;  /* Le logo prendra la largeur du conteneur */
     height: auto;
 }
+/* Par défaut, pour les grands écrans */
+body {
+  font-size: 16px;
+}
+
+/* Pour les écrans plus petits (mobiles) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
