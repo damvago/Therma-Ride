@@ -362,7 +362,7 @@ body {
 
 .contact-logo {
     position: absolute;
-    bottom: -2000px;
+    bottom: 0px;
     right: 60px;
     width: 450px;
     margin-top: 20px; /* Décale le logo de 20px vers le bas */
